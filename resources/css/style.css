@@ -6,6 +6,8 @@ body {
 	color: white;
 }
 
+/*Header*/
+
 header {
 	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
 	background-size: cover;
@@ -21,10 +23,37 @@ nav {
 	background-color: cadetblue;
 }
 
+.nav {
+	display: flex;
+}
+
 .nav-logo {
 	padding: 1rem 2rem;
 }
 
 .logo {
 	height: 1.5rem;
+}
+
+.nav-name {
+	font-size: 1rem;
+}
+
+.nav-items {
+	display: flex;
+	align-self: center;
+	padding: 1rem 2rem 1rem 20.2rem;
+	width: 30%;
+	justify-content: space-between;
+}
+
+.title-main {
+	line-height: 1.2;
+	font-weight: bold;
+	font-size: 2rem;
+	color: black;
+	background-color: white;
+	padding: 1.5rem 5rem;
+	display: flex;
+	justify-content: flex-end;
 }
