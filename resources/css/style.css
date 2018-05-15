@@ -53,7 +53,92 @@ nav {
 	font-size: 2rem;
 	color: black;
 	background-color: white;
-	padding: 1.5rem 5rem;
+	width: 612px;
+	margin-left: 600px;
+}
+
+.title-main h2 {
 	display: flex;
-	justify-content: flex-end;
+	padding: 1.5rem 5rem;
+	margin: 0 auto;
+	margin-top: 10rem;
+}
+
+main {
+	height: 8rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	width: 33rem;
+	margin: 0 auto;
+}
+
+.icons-wrap {
+	display: flex;
+	color: black;
+	justify-content: space-around;
+} 
+
+.main-icons {
+	width: 5rem;
+	height: auto;
+}
+
+.main-icons2 {
+	width: 3.5rem;
+	height: auto;
+}
+
+.main-titles {
+	width: 3.5rem;
+	color: black;
+}
+
+.title-wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+}
+
+section {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 3rem;
+	padding-bottom: 5rem;
+}
+
+.columns {
+	width: 35%;
+}
+
+.columns div {
+	background-color: cadetblue;
+	font-weight: bold;
+	width: 10rem;
+	padding:  0.5rem 1.25rem;
+}
+
+.columns h4 {
+	margin: 0;
+}
+
+.columns p {
+	color: black;
+}
+
+footer {
+	background-color: azure;
+	display: flex;
+	align-content: center;
+	height: 9.5rem;
+}
+
+footer img {
+	height: 1.5rem;
+	padding: 4rem 1rem 4rem 4rem;
+}
+
+footer div {
+	color: black;
+	display: flex;
+	align-items: center;
 }
